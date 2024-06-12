@@ -9,11 +9,11 @@ import asyncio, datetime, time
 ACCEPTED_TEXT = "❖ ʜᴇʏ ʙᴀʙʏ ➥ {user}\n\n❖ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ➥ {chat}"
 START_TEXT = "❖ ʜᴇʏ ʙᴀʙʏ {}\n\n● ɪ ᴀᴍ ᴀᴜᴛᴏ ʀᴇǫ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ.\n\n❖ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ ᴛᴏ ᴜsᴇ."
 
-API_ID = int(env.get('API_ID'))
-API_HASH = env.get('API_HASH')
-BOT_TOKEN = env.get('BOT_TOKEN')
-MONGO_DB = env.get('MONGO_DB')
-OWNER = int(env.get('OWNER'))
+API_ID = int(env.get('12387768'))
+API_HASH = env.get('b6c0df9e01ecdc6ea763a4b1ce95cb03')
+BOT_TOKEN = env.get('6564454756:AAGdDTI7nrAve4nJLRwKdr-OVU4AWOqfzv4')
+MONGO_DB = env.get('mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority')
+OWNER = int(env.get('7120796178'))
 
 Dbclient = AsyncIOMotorClient(MONGO_DB)
 Cluster = Dbclient['Cluster0']
